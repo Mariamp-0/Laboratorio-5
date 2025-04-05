@@ -27,8 +27,7 @@ function SingularAPlural(palabra) {
     return palabra + "s"
 };
 
-//console.log(SingularAPlural(frutas[5]))
-
+console.log("Esta es una fruta en plural: " + SingularAPlural(frutas[5]))
 
 
 
