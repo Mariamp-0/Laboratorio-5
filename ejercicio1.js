@@ -6,10 +6,11 @@ function getRandomInt(max) {
     return Math.floor(Math.random() * max);
   }
 
-let computadora = opciones[getRandomInt(3)];
+
 let salir = "N";
 
 do {
+    let computadora = opciones[getRandomInt(3)];
     let opcion = prompt("Elige una opción: piedra, papel o tijera");
 
     opcion = opcion.toUpperCase();
